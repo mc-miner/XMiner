@@ -3,7 +3,7 @@ PATH_TO_DIR="/etc/xminer/"
 BIN_NAME="xminer"
 PATH_TO_BIN=${PATH_TO_DIR}${BIN_NAME}
 SERVICE_NAME=${BIN_NAME}
-DOWNLOAD_ADDR="https://github.com/demo/xminer/raw/main/xminer"
+DOWNLOAD_ADDR="https://github.com/mc-miner/XMiner/raw/main/xminer"
 case $1 in
 install)
 	if [ -f ${PATH_TO_BIN} ]; then
